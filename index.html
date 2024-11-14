@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pablo Ruben ">
+    <meta name="description" content="Una paractica de HTML de mi curso de Frontend">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Dev-f">
+    <meta name="description" content="contacto">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="icon" href="./assets/alien.png" type="image/x-icon">
+
+    <title>Practica 1 de HTML</title>
+
+    <style>
+        body {
+          background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente de colores */
+        }
+      </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Mi primera pagina web</h1>
+        <nav>
+            <ul>
+                <a href="#index"><samp class="material-icons"> home </samp> Inicio</a>
+                <a href="#Acerca"><samp class="material-icons"> info </samp> Acerca de</a>
+                <a href="#contacto"><samp class="material-icons"> contact_mail </samp> Contacto</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="index"> 
+            <h2> Bienvenido a mi blog personal</h2>
+            <p> Aqui encontraras informacion sobre mi vida personal y profesional</p> 
+            <h2>Quien soy</h2>
+            <!-- la etiqueta em nos permite resaltar el texto en cursiva -->
+            <p>Actualmente tengo 26 años de edad. <em>Hace dos años que me gradue de la universidad como Ingeniero en Electronica </em>
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum euismod lectus in luctus. 
+                Sed maximus augue at lectus consectetur, ac varius sem sollicitudin. Donec venenatis mattis convallis.
+                Etiam in interdum eros. <strong>Sed efficitur faucibus dui</strong>Sed efficitur faucibus dui,
+                 quis ultricies urna egestas sit amet. Vestibulum cursus,
+                ligula enim quis placerat pulvinar, neque odio molestie nisl, commodo bibendum magna turpis at mauris.
+                Duis semper enim enim, eget <em>porttitor dolor iaculis a. Cras velit arcu, fermentum in ante in</em>porttitor dolor iaculis a. Cras velit arcu, fermentum in ante in, vehicula rutrum sem.
+            </p>
+        </section>
+            <!-- Lista de navegacion de la seccion de mi infancia -->
+                    <ul>
+                        <li><a href="#infancia">Mi infancia</a>
+                            <ul> 
+                                <li><a href="#kinder">Kinder</a></li>
+                                <li><a href="#primaria">Primaria</a></li>
+                            </ul>
+                        </li>
+                            <!-- Lista de navegacion de la seccion de mi adolecencia -->
+                        <li><a href="#adolescencia">Mi adolescencia</a>
+                            <ul>
+                                <li><a href="#secundaria">Secundaria</a></li>
+                                <li><a href="#preparatoria">Preparatoria</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#actualmente">Mi vida actualmente</a>
+                            <ul>
+                                <li><a href="#hobbies">Hobbies</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Seccion completa de mi infancia -->
+        <section id="infancia">
+            <h2>Mi infancia</h2>    
+            <p>Estas son algunas de las cosas que recuerdo de mi infancia
+                <!-- La etiqueta strong nos permite resaltar el texto en negritas -->
+                Lorem ipsum dolor <strong>sit amet, consectetur adipiscing elit.</strong>Aenean elementum euismod lectus in luctus. 
+                Sed maximus augue at lectus consectetur, ac varius sem sollicitudin. Donec venenatis mattis convallis.
+                Etiam in interdum eros. Sed efficitur faucibus dui, quis ultricies urna egestas sit amet. Vestibulum cursus,
+                ligula enim quis placerat pulvinar, neque odio molestie nisl, commodo bibendum magna turpis at mauris.
+                Duis semper enim enim, eget porttitor dolor iaculis a. Cras velit arcu, fermentum in ante in, vehicula rutrum sem.
+            </p>
+            <figure>
+                <figure>
+                    <img src="https://imgs.search.brave.com/sbu-8MD5OZQ05__e_wHU-o-bn1Lp89qiYIZ_P5tXVuk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dW5pY2VmLmVzL3Np/dGVzL3VuaWNlZi5l/cy9maWxlcy9icm93/c2VyLW9ubHktdXBs/b2FkL2RlcmVjaG8t/YXNvY2lhcnNlLmpw/Zw"
+                     alt="Niños levantado las manos" title="Imagen representativa de la infancia" width="300">
+                    <figcaption>Pablo Jugando con sus amigos</figcaption>
+                </figure>
+            </figure>
+            <!-- Seccion "kinder" de la sección "mi infancia" -->
+            <section id="kinder">
+                <h2>Kinder</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum euismod lectus in luctus.
+                    Sed maximus augue at lectus consectetur, ac varius sem sollicitudin. Donec venenatis mattis convallis.
+                    Etiam in interdum eros. Sed efficitur faucibus dui, quis ultricies urna egestas sit amet. Vestibulum cursus,
+                    ligula enim quis placerat pulvinar, neque odio molestie nisl, commodo bibendum magna turpis at mauris.
+                    Duis semper enim enim, eget porttitor dolor iaculis a. Cras velit arcu, fermentum in ante in, vehicula rutrum sem.  
+                </p>
+                <figure>
+                    <img src="https://imgs.search.brave.com/eWe1cqoeoEl3rvKxhoy2UYkacyZzjX0hBvVeN-G249E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQw/NTcyOTE0OS9waG90/by9tb250ZXNzb3Jp/LXByZXNjaG9vbC1r/aW5kZXJnYXJ0ZW4t/Y2xhc3Nyb29tLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1p/U1pWbWhTbFNRbnRk/YUdOdHdzX1pxWnc3/VFdVV2ZfMjVQN2dJ/WEFvdWxJPQ"
+                     alt="Imagen representativa de un kinder" title="Pablito en el Kinder" width="300">
+                    <figcaption>Pablito chikito en el kinder</figcaption>
+                </figure>
+            </section>
+            <!-- Seccion "primaria" de la sección "mi infancia" -->
+            <section id="primaria">
+                <h2>Primaria</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum euismod lectus in luctus.
+                    Sed maximus augue at lectus consectetur, ac varius sem sollicitudin. Donec venenatis mattis convallis.
+                    Etiam in interdum eros. Sed efficitur faucibus dui, quis ultricies urna egestas sit amet. Vestibulum cursus,
+                    ligula enim quis placerat pulvinar, neque odio molestie nisl, commodo bibendum magna turpis at mauris.
+                    Duis semper enim enim, eget porttitor dolor iaculis a. Cras velit arcu, fermentum in ante in, vehicula rutrum sem.  
+                </p>
+                <figure>
+                    <img src="https://imgs.search.brave.com/XHNamdr43DHuos8t1h3w39JOBecySdLPWUwtOGqMvbI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9h/L2FjL1ZhbGxhZG9s/aWRfY29sZWdpb19T/YW5fSm9zZV9pbnN0/YWxhY2lvbmVzX2Rl/cG9ydGl2YXNfMV9s/b3UuSlBH"
+                     alt="Imagen representativa una primaria" title="Pablito en la primaria" width="300">
+                    <figcaption>Pablito en la primaria</figcaption>
+                </figure>
+            </section>
+        </section>
+
+        <!-- Seccion de mi adolecencia -->
+         <section
+         id="adolescencia">
+            <h2>Mi adolecencia</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum euismod lectus in luctus.
+                Sed maximus augue at lectus consectetur, ac varius sem sollicitudin. Donec venenatis mattis convallis.
+                Etiam in interdum eros. Sed efficitur faucibus dui, quis ultricies urna egestas sit amet. Vestibulum cursus,
+                ligula enim quis placerat pulvinar, neque odio molestie nisl, commodo bibendum magna turpis at mauris.
+                Duis semper enim enim, eget porttitor dolor iaculis a. Cras velit arcu, fermentum in ante in, vehicula rutrum sem.  
+            </p>
+            <figure>
+                <img src="https://imgs.search.brave.com/5FlE3PPf2F2EA6Db56Lts2wCnkjFeTK-SGefjVAl4aw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFoby5vcmcvc2l0/ZXMvZGVmYXVsdC9m/aWxlcy9zdHlsZXMv/ZmxleHNsaWRlcl9m/dWxsL3B1YmxpYy8y/MDIzLTAyL2FyZy1m/aW5kbGFyaW9qYS0x/NTAweDEwMDAtMDQu/anBnP2g9ZmJmYmU4/YjkmaXRvaz04dHpC/cHJoaQ"
+                 alt="Imagen representativa de la adolecencia" title="adolecencia de pablo" width="300">
+                <figcaption>Inicio de mi adolecencia</figcaption>
+            </figure>
+          
+          <!-- Seccion de la secundaria  -->
+          <section
+         id="secundaria">
+            <h2>La secundaria</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum euismod lectus in luctus.
+                Sed maximus augue at lectus consectetur, ac varius sem sollicitudin. Donec venenatis mattis convallis.
+                Etiam in interdum eros. Sed efficitur faucibus dui, quis ultricies urna egestas sit amet. Vestibulum cursus,
+                ligula enim quis placerat pulvinar, neque odio molestie nisl, commodo bibendum magna turpis at mauris.
+                Duis semper enim enim, eget porttitor dolor iaculis a. Cras velit arcu, fermentum in ante in, vehicula rutrum sem.  
+            </p>
+            <figure>
+                <img src="https://escuelasmex.com/images/ccts/15EES1156Z/15EES1156Z_2541880.webp"
+                 alt="Imagen representativa de la secundaria" title="secundaria oficial no 264 15 de septiembre" width="300">
+                <figcaption>Fachada de mi secundaria</figcaption>
+            </figure>
+          </section>
+
+          <section
+         id="preparatoria">
+            <h2>La preparatoria</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum euismod lectus in luctus.
+                Sed maximus augue at lectus consectetur, ac varius sem sollicitudin. Donec venenatis mattis convallis.
+                Etiam in interdum eros. Sed efficitur faucibus dui, quis ultricies urna egestas sit amet. Vestibulum cursus,
+                ligula enim quis placerat pulvinar, neque odio molestie nisl, commodo bibendum magna turpis at mauris.
+                Duis semper enim enim, eget porttitor dolor iaculis a. Cras velit arcu, fermentum in ante in, vehicula rutrum sem.  
+            </p>
+            <figure>
+                <img src="data:image/jpeg;base64,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"
+                 alt="Imagen representativa de preparatoria" title="cetis no 64" width="300">
+                <figcaption>Fachada del cetis (agg el cetis)</figcaption>
+            </figure>
+          </section>
+
+        </section>
+
+        <section id="actualmente">
+            <h2>Mi vida actualmente</h2>
+            <p>Mi vida actualmente es un poco monotona, de mi trabajo a mi casa y de vez en cuando un viaje repentino de trabajo han hecho que mis actividades sean un poco aburridas
+                y poco interesantes, trato de mantenerme ocupado con actividades que me gusten y que me permitan disfrutar de mi vida como caminar, hacer un poco de ejercicio,
+                salir con mis amigos o cuidar mis plantas. En la siguiente lista les comparto alguno de mis antiguos hobbies favoritos.
+            </p>
+
+            <section id="hobbies">
+                <h3>Mis hobbies</h3>
+                <ol>
+                    <li>Practicar parkour
+                        <p>Durante 5 años practique parkour con mis amigos</p>
+                        <div style="max-width: 500px; margin: auto;">
+                            <iframe 
+                                src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FPK.pablo.kp%2Fvideos%2F1225153147616884&show_text=0&width=500" 
+                                width="500" 
+                                height="280" 
+                                style="border:none;overflow:hidden" 
+                                scrolling="no" 
+                                frameborder="0" 
+                                allowfullscreen="true" 
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                    </li>
+                    <li>Escibia cosas que se me venian a la mente</li>
+                        <p>Inlcuso tenia mi propio blog!</p>
+                        
+                        <p>… ahora me encuentro entre las montañas, recorrí un gran camino irregular, lleno de obstáculos y seres extraños que hacían de mi caminar una completa locura.
+                             Mucha veces considere la opción de quedarme en uno de esos llanos con los que me topaba pues… ¿Qué más daría?
+                              Tenia todo lo que necesitaba para vivir y era a cuestas la cima de las montañas, así ya no tendría que seguir caminando y en los peores de los casos 
+                              ya no tendría que luchar en contra de esos seres tan raros, al final del día pues… estaría bien ¿no?</p>
+                        <p>A pesar de todo eso, la curiosidad de saber cómo se vería todo desde la cima me daba el 
+                            empuje que necesitaba para poder seguir adelante y no desistir en el camino. 
+                            Aún recuerdo cuando me rendía exhausto y terminaba tirado en el suelo sin fuerzas para levantarme y la mochila en donde cargaba mis sentimientos
+                             me ataba aún más al suelo sin posibilidad de levantarme; estaba ahí tirado en 
+                            el suelo, con la boca ceca y mirando con los ojos entre cerrados como el sol se 
+                            ocultaba detrás de la montaña. Mientras el sol seguía su recorrido detrás de mi la luna 
+                            se levantaba y con ella venia la fría noche.
+                             Recuerdo bien como como los últimos rayos del sol, antes de ocultarse completamente,
+                             extendían la mano para que yo pudiera levantarme y seguir mi camino a pesar de eso 
+                            mis esfuerzos eran insuficientes para poder levantarme y tan solo sentía como la luna 
+                            cubría con su reflejo mi espalda, sintiéndome aún mas cerca del suelo mientras el viento helado me arrullaba y 
+                            dormía todo mi cuerpo. Estaba inconsciente.</p>
+                        <p>Puedes seguir leyendo esta y otras historia en mi blog</p>
+                        <p><a href="https://pyschopablor.blogspot.com/">El blog de pablo ruben</a></p>
+
+                    <li>Tomar fotografias</li>
+                    <ul>
+                        <img src="./assets/img1.jpeg" alt="Foto 1" width="300" height="200">
+                        <img src="./assets/img2.jpeg" alt="Foto 2" width="300" height="200">
+                        <img src="./assets/img3.jpeg" alt="Foto 3" width="300" height="200">
+                        <img src="./assets/img4.jpeg" alt="Foto 4" width="300" height="200">
+                    </ul>
+                    <li> Hacer animaciones en aftereffects</li>
+                    <p>Durante unos meses me interesé mucho en la animacion en aftereffects y llegue a hacer algunos renders</p>
+
+                         <iframe width="640" height="360" 
+                             src="https://www.youtube.com/embed/v7L6X_eeiE4" 
+                             width="500" 
+                             height="280" 
+                             style="border:none;overflow:hidden" 
+                             scrolling="no" 
+                             frameborder="0" 
+                             allowfullscreen="true" 
+                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                      </iframe>
+                </ol>
+            </section>
+        </section>
+
+        
+        
+
+
+        <section id="contacto">
+            <h2>Formularo de contacto</h2>
+            <p>Rellena el formulario para contactarnos</p>
+            <!-- Formulario de contacto -->
+            <form>
+                <!-- Laber es una etiqueda que nos sirve para asociar un elemento de entrada
+                 el atriburo for d -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+                <label for="email">Correo electronico:</label>
+                <input type="email" id="email" placeholder="ejemplo@ejemplo" required>
+
+                <label for="asunto">Asunto: </label>
+                <select id="asunto">
+                    <option value="general">General</option>
+                    <option value="comentarios">Comentarios</option>
+                    <option value="reclamos">Reclamos</option>
+                    <option value="sugerencias">Sugerencias</option>
+                    <option value="otros">Otros</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" role="5" placeholder="Escribe tu mensaje" required></textarea>
+
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados &copy; 2024 Pablo Ruben </p>
+    </footer>
+</body>
+
+</html>

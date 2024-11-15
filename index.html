@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Uso de meta datos dentro de mi pagina web -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Pablo Ruben ">
@@ -13,7 +14,7 @@
     <link rel="icon" href="./assets/alien.png" type="image/x-icon">
 
     <title>Practica 1 de HTML</title>
-
+    <!-- Etiqueta para darle un color de fondo a la pagina -->
     <style>
         body {
           background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente de colores */
@@ -23,9 +24,11 @@
 </head>
 
 <body>
+    <!-- Encabezado de la pagina -->
     <header>
         <h1>Mi primera pagina web</h1>
         <nav>
+            <!-- Lista de navegacion en la pagina -->
             <ul>
                 <a href="#index"><samp class="material-icons"> home </samp> Inicio</a>
                 <a href="#Acerca"><samp class="material-icons"> info </samp> Acerca de</a>
@@ -34,6 +37,7 @@
         </nav>
     </header>
     <main>
+        <!-- Parte introductoria de mi página -->
         <section id="index"> 
             <h2> Bienvenido a mi blog personal</h2>
             <p> Aqui encontraras informacion sobre mi vida personal y profesional</p> 
@@ -157,7 +161,7 @@
                 <figcaption>Fachada de mi secundaria</figcaption>
             </figure>
           </section>
-
+         <!-- Seccion de la preparatoria -->
           <section
          id="preparatoria">
             <h2>La preparatoria</h2>
@@ -176,19 +180,20 @@
           </section>
 
         </section>
-
+            <!-- Seccion "Mi vida actualmente" -->
         <section id="actualmente">
             <h2>Mi vida actualmente</h2>
             <p>Mi vida actualmente es un poco monotona, de mi trabajo a mi casa y de vez en cuando un viaje repentino de trabajo han hecho que mis actividades sean un poco aburridas
                 y poco interesantes, trato de mantenerme ocupado con actividades que me gusten y que me permitan disfrutar de mi vida como caminar, hacer un poco de ejercicio,
                 salir con mis amigos o cuidar mis plantas. En la siguiente lista les comparto alguno de mis antiguos hobbies favoritos.
             </p>
-
+            <!-- Seccion "Mis hobbies" -->
             <section id="hobbies">
                 <h3>Mis hobbies</h3>
                 <ol>
                     <li>Practicar parkour
                         <p>Durante 5 años practique parkour con mis amigos</p>
+                    <!-- Esta seccion de codigo es para insertar un video de facebook, la seccion de codigo la obtuve con ayuda de chatGPT -->
                         <div style="max-width: 500px; margin: auto;">
                             <iframe 
                                 src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FPK.pablo.kp%2Fvideos%2F1225153147616884&show_text=0&width=500" 
@@ -233,7 +238,6 @@
                     </ul>
                     <li> Hacer animaciones en aftereffects</li>
                     <p>Durante unos meses me interesé mucho en la animacion en aftereffects y llegue a hacer algunos renders</p>
-
                          <iframe width="640" height="360" 
                              src="https://www.youtube.com/embed/v7L6X_eeiE4" 
                              width="500" 
@@ -248,6 +252,15 @@
             </section>
         </section>
 
+        <sectionid id="Acerca">
+            <h2>Acerca de</h2>
+                <p>
+                    Esta pagina web es parte de un curso de Frontend impartido por Dev-f. Esta es una de las practicas que he realizado
+                    durante el curso como demostracion de lo aprendido.	
+                    Cualquier duda o comentario puedes hacermelo llegar a la seccion de contacto.
+                </p>
+        </section>
+
         
         
 
@@ -257,8 +270,6 @@
             <p>Rellena el formulario para contactarnos</p>
             <!-- Formulario de contacto -->
             <form>
-                <!-- Laber es una etiqueda que nos sirve para asociar un elemento de entrada
-                 el atriburo for d -->
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
 
